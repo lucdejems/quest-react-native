@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
 
 const App = () => (
   <View style={styles.container}>
-    <Text className="text">Aucun article</Text>
+    <Text>Aucun article</Text>
   </View>
 );
 

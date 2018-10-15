@@ -16,7 +16,7 @@ describe('within View', () => {
     const wrapper = shallow(<App />);
     expect(
       wrapper
-        .find('.text')
+        .find('Text')
         .dive()
         .text()
     ).toEqual('Aucun article');
